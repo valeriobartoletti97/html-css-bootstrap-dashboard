@@ -30,9 +30,23 @@ main{
 	width:150px;
 	background-color: var(--color-side-bar);
 	background-image: url(../img/sidebar-bg.png);
+	color: white;
 	/* overflow:hidden */
 }
 #main-content{
 	width:calc(100% - 150px);
 	overflow-y: auto;
+}
+#sidebar li{
+	list-style: none;
+	/* width: 80%;
+	margin: 0 auto; */
+}
+.my-ul{
+    padding:0;
+}
+#sidebar li{
+	width:70%;
+	margin: 0 auto;
+	padding:10px 0;
 }
