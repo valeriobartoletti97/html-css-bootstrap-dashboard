@@ -1,0 +1,13 @@
+/* general */
+:root {
+	--color-bg-search-bar: #e5e5e5;
+	--color-bg-body: #f8f9fa;
+	--color-side-bar: #0f263d;
+	--color-nav-bar: #1b72e8;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
