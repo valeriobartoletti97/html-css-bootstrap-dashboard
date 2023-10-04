@@ -10,6 +10,7 @@ body{
     font-family: 'Anton', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+	font-size:0.9em;
 }
 .wrapper{
 	height:100vh;
@@ -79,6 +80,9 @@ td:first-of-type{
 .nav-badge:hover{
 	cursor: pointer;
 }
+.my-offcanvas{
+	width: 50vw !important;
+}
 /* media query */
 @media all and (max-width: 992px){
 	#sidebar ul span{
@@ -86,5 +90,10 @@ td:first-of-type{
 	}
 	#sidebar{
 		width: 100px;
+	}
+}
+@media all and (max-width: 576px){
+	.my-offcanvas{
+        width:100vw !important;
 	}
 }
