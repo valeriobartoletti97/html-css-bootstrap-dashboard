@@ -2,7 +2,7 @@
 :root {
 	--color-bg-search-bar: #e5e5e5;
 	--color-bg-body: #f8f9fa;
-	--color-side-bar: #0f263d;
+	--color-side-bar: rgb(15, 38, 61);
 	--color-nav-bar: #1b72e8;
 }
 
@@ -67,6 +67,17 @@ table img{
 }
 td:first-of-type{
 	width: 42%;
+}
+.nav-badge{
+	background-color: rgba(15, 38, 61, 0.3);
+	border-radius: 30px;
+	padding: 0px 10px;
+}
+.my-button{
+	padding: 5px 15px;
+}
+.nav-badge:hover{
+	cursor: pointer;
 }
 /* media query */
 @media all and (max-width: 992px){
