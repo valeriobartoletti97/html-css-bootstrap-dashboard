@@ -34,19 +34,38 @@ main{
 	/* overflow:hidden */
 }
 #main-content{
-	width:calc(100% - 150px);
+	width:100%;
 	overflow-y: auto;
-}
-#sidebar li{
-	list-style: none;
-	/* width: 80%;
-	margin: 0 auto; */
 }
 .my-ul{
     padding:0;
 }
 #sidebar li{
-	width:70%;
+	width:80%;
 	margin: 0 auto;
 	padding:10px 0;
+	list-style-type: none;
+}
+header img{
+	height:30px;
+}
+#sidebar li:first-of-type{
+	margin-left: 10px
+}
+#sidebar li:hover{
+	background-color:grey;
+	cursor: pointer;
+}
+#logo-mobile{
+	height:50px;
+}
+
+/* media query */
+@media all and (max-width: 992px){
+	#sidebar ul span{
+		display:none
+	}
+	#sidebar{
+		width: 100px;
+	}
 }

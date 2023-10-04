@@ -13,22 +13,38 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <header class="d-flex align-items-center bg-white">
+            <nav class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <img src="img/logo.svg" alt="logo" class="d-none d-lg-block">
+                        <img id="logo-mobile" src="img/mobile-logo.png" alt="logo-mobile" class="d-lg-none">
+                    </div>
+                    <div class="col"><input type="search" class="form-control"></div>
+                    <div class="col-auto"></div>
+                </div>
+            </nav>
         </header>
         <main>
-            <div id="sidebar">
+            <div id="sidebar" class="text-center d-flex justify-content-between flex-column">
                 <ul class="my-ul mt-4">
                     <li>
-                        <i class="fa-solid fa-home me-3"></i>
+                        <i class="fa-solid fa-home me-2"></i>
                         <span>Home</span>
                     </li>
-                    <li>
-                        <i class="fa-solid fa-chart-simple me-3"></i>
-                        <span>Stats</span>
+                    <li class="ms-2">
+                        <i class="fa-solid fa-chart-simple me-2"></i>
+                        <span class="ms-1">Stats</span>
                     </li>
                     <li>
-                        <i class="fa-solid fa-signal me-3"></i>
+                        <i class="fa-solid fa-signal me-2"></i>
                         <span>Signals</span>
+                    </li>
+                </ul>
+                <ul class="my-ul mt-4">
+                    <li>
+                        <i class="fa-solid fa-gear me-2"></i>
+                        <span>Admin</span>
                     </li>
                 </ul>
             </div>
