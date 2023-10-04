@@ -62,6 +62,12 @@ header img{
 .my-bg-searchbar{
 	background-color: var(--color-bg-search-bar);
 }
+table img{
+	height: 25px;
+}
+td:first-of-type{
+	width: 42%;
+}
 /* media query */
 @media all and (max-width: 992px){
 	#sidebar ul span{
