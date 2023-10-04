@@ -20,8 +20,35 @@
                         <img src="img/logo.svg" alt="logo" class="d-none d-lg-block">
                         <img id="logo-mobile" src="img/mobile-logo.png" alt="logo-mobile" class="d-lg-none">
                     </div>
-                    <div class="col"><input type="search" class="form-control"></div>
-                    <div class="col-auto"></div>
+                    <div class="col input-group">
+                        <div class="input-group-text my-bg-searchbar" id="btnGroupAddon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input type="text" class="form-control my-bg-searchbar" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                      </div>
+                    <div class="col-auto">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-light d-none d-lg-block">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <button type="button" class="btn btn-light d-none d-lg-block">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </button>
+                            <button type="button" class="btn btn-light d-none d-lg-block">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell text-warning"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                          </div>
+                    </div>
                 </div>
             </nav>
         </header>

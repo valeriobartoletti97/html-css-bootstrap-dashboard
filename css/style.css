@@ -59,7 +59,9 @@ header img{
 #logo-mobile{
 	height:50px;
 }
-
+.my-bg-searchbar{
+	background-color: var(--color-bg-search-bar);
+}
 /* media query */
 @media all and (max-width: 992px){
 	#sidebar ul span{
